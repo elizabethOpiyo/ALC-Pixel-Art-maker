@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<input id = "btn" type ="button" value = "Play" onclick ="myfunction()"/>
+    <h1><span id = "text" type = "lab">Lab</span>
+<span id = "text" type = "colon">:</span>
+<span id = "text" type = "pixel">Pixel</span>
+<span id = "text" type = "art">Art</span>
+<span id = "text" type = "maker">Maker</span>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" value="1">
+        <input type="submit" id="btnClick" onclick="clickEvent();">
+
+    </form>
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas">  
+    
+        </table>
+       <h3> <input type="reset" id="buttonClick" onClick="myButton();"></h3>   
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="designs.js"></script>
+</body>
+</html>
