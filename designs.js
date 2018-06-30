@@ -52,7 +52,7 @@ else {
 //this code adds audio to the page/
 
 	var audio = new Audio();
-	audio.src = "rainbow.mp3";
+	audio.src = "winthegame.mp3";
 	var status = "stopped";
 	var btn = document.getElementById("btn");
 	function myfunction() {
