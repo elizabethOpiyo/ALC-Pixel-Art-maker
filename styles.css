@@ -1,0 +1,75 @@
+body {
+    text-align: center;
+	background-color:#f90;
+	
+}
+
+h1 {
+    font-family: Monoton;
+    margin: 0.2em;
+	font-size: 60px;}
+span[type=lab] {
+	color: #fff;
+}
+span[type=colon] {
+	color: #666;
+}
+span[type=pixel] {
+	color: #660;
+}
+span[type=art] {
+	color: #3cbfe2;
+}
+span[type=maker] {
+	color: #906;
+}
+
+
+
+h2 {
+    margin: 1em 0 0.25em;
+  font: 24px Georgia, "Times New Roman", Times, serif;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+	
+}
+
+table,
+tr,
+td {
+    border: 2px solid #fff;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 30px;
+}
+input {
+	cursor:pointer; 
+
+}
+input[type=number] {
+    width: 4em;
+	background-color:#c9f;
+	border-radius:3px;
+}
+
+input[type=button] {
+		border-radius:10px;
+		    width: 3em;
+			outline:none;
+
+		
+}
+
+		
