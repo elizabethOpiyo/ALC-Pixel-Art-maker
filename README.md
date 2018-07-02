@@ -1,4 +1,4 @@
-https://github.com/elizabethOpiyo/ALC-Pixel-Art-maker
+
 
 To play, choose height and width size of your choice and click on Submit. 
 A grid will be made according to your choice.
